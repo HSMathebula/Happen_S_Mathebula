@@ -1,67 +1,49 @@
 const projects = [
   {
     id: 'card1',
-    title: 'Hemp Cannabis Foundtaion',
-    image1: './images/hempBrandID-01.png',
-    image2: './images/hempBusinessCard-01.png',
-    image3: './images/hempBanner.png',
-    image4: './images/hempCap-01.png',
-    image5: './images/hempBrandID-01.png',
-    image6: './images/hempBusinessCard-01.png',
-    image7: './images/hempBanner.png',
-    image8: './images/hempCap-01.png',
+    title: 'Desert Green Africa',
+    image1: './images/dg.png',
     description1:
-      'Hemp Cannabis Foundation is a non-profit organization founded in 2022 by 6 individuals with a dream to contribute to the fast-growing industry by connecting formers, marketplace, and funders in one space. The foundation was founded in South Africa Mpumalanga which is where they are based and operating,',
+      'Desert Green is an Agritech start-up founded on the core-mission of tackling food insecurity challenges in the informal agri-value chain in Africa. We build mobile tech solutions to improve productivity, profits & livelihoods for Africa small-scale farmers & Informal traders while bringing youth back to farming.',
     description2:
-      'I designed the logo, business documents, presentation PowerPoint, mailer, business card, social media banner, and other social media contents. The website is currently in progress',
-    technologyList: ['Logo Design', 'Webside Design', 'Brand Identity'],
+      'Co-founded in 2015, formally registered in 2016, by 3 young entrepreneurs from different walks of life with 3 things in common: a rural upbringing, a passion for Agri-tech & a near-impossible vision for a self-sustaining connected Africa.',
+    technologyList: ['Webside Design', 'Development', 'On page SEO'],
     firstButton: 'See Live',
-    secondButton: 'See Source',
-    SeeLive: '#',
-    seeSource: 'https://github.com/HSMathebula'
+    secondButton: 'See Design',
+    SeeLive: 'https://sphandanjalo.com/deesertgreen/index.html',
+    seeSource: 'https://www.figma.com/file/cqaYOAiigwpHWOOUZKpd1p/Desert-Green-Africa?node-id=0%3A1&t=YF33EXHdRNzehZiE-1'
   },
 
   {
     id: 'card2',
-    title: 'Polar Monitoring',
-    image1: './images/polarDashboard-01.png',
-    image2: './images/polarDevice-01.png',
-    image3: './images/polarReport-01.png',
-    image4: './images/polarDashboard-01.png',
-    image5: './images/polarDashboard-01.png',
-    image6: './images/polarDevice-01.png',
-    image7: './images/polarReport-01.png',
-    image8: './images/polarDashboard-01.png',
+    title: 'Movie Biskop',
+    image1: './images/movie-biskop.png',
+    image2: './images/latest-movies.png',
+    image3: './images/Genre.png',
+    image4: './images/Details.png',
     description1:
-      'Pola Monitoring is deal with monitoring water levels using systems that gives alerts to the dashboad',
+      'Biskop is a movie booking app that allows a user to signup and login. Add movies or book available movie from the list. This app was built with react redux for the frontend along with rails for backend.',
     description2:
-      'I design the dashboard UI and build the front end. Using JSX, SCSS and JavaScript. I built 3 pages Dashboard home page, Device, Report page link is not available',
-    technologyList: ['UI Design', 'HTML/CSS', 'Javascript'],
+      '',
+    technologyList: ['Webside Design', 'Development', 'On page SEO'],
     firstButton: 'See Live',
     secondButton: 'See Source',
-    SeeLive: '#',
-    seeSource: 'https://github.com/HSMathebula'
+    SeeLive: 'https://exquisite-marigold-3a82c1.netlify.app/',
+    seeSource: 'https://github.com/HSMathebula/movie-booking-app-frontend'
   },
 
   {
     id: 'card3',
-    title: 'BakkieHi',
-    image1: './images/BakkieDashboard-01.png',
-    image2: './images/BakkieDriver-01.png',
-    image3: './images/BakkieCustomer-01.png',
-    image4: './images/BakkieDashboard-01.png',
-    image5: './images/BakkieDashboard-01.png',
-    image6: './images/BakkieDriver-01.png',
-    image7: './images/BakkieCustomer-01.png',
-    image8: './images/BakkieDashboard-01.png',
+    title: 'Silector',
+    image1: './images/silector.png',
     description1:
-      'BakkieHi connects drivers with customers and app based system that allows customers to interect with drivers or transport providers with ease and the other way around. This provided a large number of unemployed South Africans with cars, trucks, and so on to have a way to make money and customers get serviced.',
+      'Is a company base in eMalahleni klipfontein. We are fully complient to the industry regulations, weve been opararing since 2020 and have never failed to deliver what we promise. We offer a variety of services some are rear services round the city of eMalahleni.',
     description2:
-      'I designed and built 3 dashboards which are: Admin dashboard, Driver dashboard, and  Customer dashboard. link is not available as these are personal',
-    technologyList: ['UI Design', 'React.js', 'Javascript'],
+      '',
+    technologyList: ['UI Design', 'HTML/CSS', 'jQuery'],
     firstButton: 'See Live',
-    secondButton: 'See Source',
-    SeeLive: '#',
+    secondButton: 'Source Code Not Available',
+    SeeLive: 'http://www.silector.co.za/index.html',
     seeSource: 'https://github.com/HSMathebula'
   },
 
@@ -151,19 +133,6 @@ projects.forEach((project) => {
       <img class="mySlides" src="${project.image3}" alt="project img">
       <img class="mySlides" src="${project.image4}" alt="project img">
     </div>
-      
-    <div>
-      <img src="${project.image5}" alt="img">
-    </div>
-    <div>
-      <img src="${project.image6}" alt="img">
-    </div>
-    <div>
-      <img src="${project.image7}"  alt="img">
-    </div>
-    <div>
-      <img src="${project.image8}" alt="img">
-    </div>
 
     <p>${project.description1}</p>
     <p>${project.description2}</p>
@@ -215,21 +184,6 @@ seeProjectButtons.forEach((button) => {
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                   </div>
-                
-                  <div class="row">
-                    <div class="column">
-                      <img class="demo cursor" src="${project.image5}" onclick="currentSlide(1)" alt="img">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor" src="${project.image6}" onclick="currentSlide(2)" alt="img">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor" src="${project.image7}" onclick="currentSlide(3)" alt="img">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor " src="${project.image8}" onclick="currentSlide(4)" alt="img">
-                    </div>
-                  </div>
                 </div>
           
                 <div class="bottom-div">
@@ -238,10 +192,6 @@ seeProjectButtons.forEach((button) => {
                   <div class="cta-1">
                       <a href="${project.SeeLive}" class="see-live">${project.firstButton}<img src="./images/ic_link.png" alt="See live"></a>
                       <a href="${project.seeSource}" class="source-code">${project.secondButton}<img src="./images/ic_github_blue.png" alt="source-code"></a>
-                  </div>
-                  <div class="nxt-prv-cta">
-                      <a href="" class="prv"><img src="./images/ic_arrow_left.png" alt="">Previous project</a>
-                      <a href="" class="nxt">next-project<img src="./images/ic_arrow_right_blue.png" alt=""></a>
                   </div>
                 </div>
               </div>
